@@ -276,7 +276,7 @@ class QQLogin():
         return self.login0825()
 if __name__ == '__main__':
     login = QQLogin()
-    # msg = '15051011328'
+    # msg = '18351921234'
     # qq = login.getQQ(msg)
     # print qq
     for x in range(1000):
@@ -285,5 +285,5 @@ if __name__ == '__main__':
         if qq:
             print num + " ----> "+qq
             file_object = open('qq.txt', 'a')
-            file_object.write(num + " ----> "+qq)
+            file_object.write(num + " ----> "+qq+"\n\r")
             file_object.close( )
